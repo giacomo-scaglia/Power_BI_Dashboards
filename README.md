@@ -9,7 +9,7 @@ This interactive dashboard was designed for **Job Seekers, Job Transitioners, an
 
 The goal is to provide a clear, navigable view of job demand, salaries, required skills, locations, and employment characteristics across data-related roles.
 
-The analysis is structured across three interactive report pages, each designed with a specific analytical purpose:
+The analysis is structured across 3 interactive pages, each designed with a specific analytical purpose:
 a *general market overview*, a *comparative analysis between data job titles*, and a detailed *drill-through view for individual job titles*.
 
 
