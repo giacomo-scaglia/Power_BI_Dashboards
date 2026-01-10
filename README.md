@@ -1,6 +1,6 @@
 # Data Jobs Dashboard w/ Power BI
 
-This project is the outcome of my participation in a comprehensive Power BI course delivered by [Luke Barousse](https://github.com/lukebarousse) and published on [YouTube](https://www.youtube.com/watch?v=FwjaHCVNBWA&t=12118s) .
+This project is the outcome of my participation in a comprehensive Power BI course delivered by [Luke Barousse](https://github.com/lukebarousse) and published on [YouTube](https://www.youtube.com/watch?v=FwjaHCVNBWA&t=12118s).
 The course provided a practical, hands-on approach to building real-world business intelligence solutions using Power BI.
 
 ## Introduction
@@ -26,7 +26,7 @@ This project was a journey through key Power BI features. Here's a look at what 
 Data cleaning, shaping, type handling, and feature engineering.
 
 - **🔗 Data Modeling**:
-Table relationships and Star Schema design principles.
+[`Entity-Relationship Model`](img/ERD_model.png) and Star Schema design principles.
 
 - **🧮 DAX Measures (Implicit & Explicit)**:
 KPI creation and custom calculations using functions such as
@@ -56,9 +56,9 @@ Single-page optimization, layout clarity, and visual storytelling.
 
 ### Page 1: Data Jobs Dashboard
 
-![Data Jobs Dashboard](/img/Dashboard_page1.png)
+![Data Jobs Dashboard](/img/Dashboard_page1.gif)
 
-This page provides a general overview of the data job market and summarizes the most relevant aggregate metrics.
+This page provides a general overview of the data job market and summarizes the most relevant aggregate characteristics.
 
 Key elements:
 
@@ -70,11 +70,13 @@ Key elements:
 
 This page is intended to answer the question: *“What does the data job market look like overall?”*
 
+---
+
 ### Page 2: Data Jobs Comparison
 
-![Data Jobs Comparison](/img/Dashboard_page2.png)
+![Data Jobs Comparison](/img/Dashboard_page2.gif)
 
-This page focuses on comparing different data job titles in terms of skills, salaries and demand.
+This page focuses on comparing different data job titles in terms of skills, salaries, employment type and demand.
 
 Key elements:
 
@@ -85,14 +87,15 @@ Key elements:
 - A country slicer to filter the analysis geographically
 - Drill-through functionality to access role-specific details
 
-This page answers the question: *“How do different data title compare to each other?”*
+This page answers the question: *“What are the main differences between data jobs?”*
 
+---
 
 ### Page 3: Job Title Drill Through
 
-![Job Title Drill Through](/img/Dashboard_page3.png)
+![Job Title Drill Through](/img/Dashboard_page3.gif)
 
-This page provides a deep dive into a single job title, accessed via drill-through from the comparison dashboard.
+This page provides a deep dive into a single job title, accessed via drill-through from the comparison dashboard (Page 2).
 
 Key elements:
 - Gauge visuals for median yearly and median hourly salary
@@ -102,11 +105,11 @@ Key elements:
 - A bar chart showing which platforms host the most job postings
 - A donut chart illustrating the employment type distribution
 
-This page answers the question: *“What are the concrete characteristics of this specific data title?”*
+This page answers the question: *“What are the characteristics of this specific data job?”*
 
 ---
 
 ## Conclusion
 The Data Jobs Dashboard brings together market-level trends and role-specific insights to provide a clear and structured view of the 2024 data job landscape.
 
-Beyond its analytical value for end users, this project also proved valuable to the author, to understand demand, compensation and skill requirements across data-related roles, while improve Power BI and data analysis skills.
+Beyond its analytical value for end users, this project also proved valuable to the author, to understand demand, compensation and skill requirements across data-related roles, while improve Power BI and data visualization skills.
